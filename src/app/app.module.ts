@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ShowDataFromApiComponent } from './components/show-data-from-api/show-data-from-api.component';
 
@@ -10,7 +10,8 @@ import { ShowDataFromApiComponent } from './components/show-data-from-api/show-d
     ShowDataFromApiComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

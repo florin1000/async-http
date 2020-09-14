@@ -10,6 +10,8 @@ export class ShowDataFromApiComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
+
 
 }
