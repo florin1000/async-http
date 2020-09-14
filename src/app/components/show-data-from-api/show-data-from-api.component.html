@@ -1,5 +1,7 @@
 <p>show-data-from-api works!</p>
 <div *ngFor="let user of users">
-  <span>{{user.name}}</span>
-  <span>{{user.email}}</span>
+  <div class="user-card">
+    <span>{{ user.name }} :</span>
+    <span>{{ user.email }}</span>
+  </div>
 </div>

@@ -1,0 +1,12 @@
+.user-card {
+  span {
+    margin-right: 15px;
+    padding: 5px;
+    &:first-child {
+      text-transform: capitalize;
+      font-weight: bold;
+      min-width: 180px;
+      display: inline-block;
+    }
+  }
+}
