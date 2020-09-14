@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-show-data-from-api',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./show-data-from-api.component.scss']
 })
 export class ShowDataFromApiComponent implements OnInit {
-
+  @Input() users;
   constructor() { }
 
   ngOnInit(): void {
